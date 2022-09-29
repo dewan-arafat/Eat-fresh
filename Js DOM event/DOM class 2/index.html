@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Event Practice</title>
+</head>
+
+<body>
+    <h1>Will You Marry Me?</h1>
+
+    <div class="dicision-btn">
+        <div><button id="make-green">YES</button></div>
+        <div><button onclick="makeRed()">No</button>
+        </div>
+    </div>
+    <h3 id="magic-line">Magic Text</h3>
+    <button onclick="magicBtn()">Click me & See Magic</button>
+    <button id="magic-btn">It's Me Another Magic Button</button>
+
+
+    <h1 id="secret-info">My Secret info</h1>
+    <input type="text" id="dlt-confirm" placeholder="Please Enter delete">
+    <button id="dlt-btn" disabled="disabled">Delete</button>
+
+    <script>
+        document.getElementById('dlt-confirm').addEventListener('keyup', function (event) {
+            const text = event.target.value;
+            const deleteButton = document.getElementById('dlt-btn');
+            if (text == 'delete') {
+                deleteButton.removeAttribute('disabled');
+            }
+            else {
+                deleteButton.setAttribute('disabled', true);
+            }
+        })
+        document.getElementById('dlt-btn').addEventListener('click', function () {
+            document.getElementById('secret-info').style.display = 'none';
+        })
+    </script>
+
+
+
+    <script src="event.js"></script>
+</body>
+
+</html>

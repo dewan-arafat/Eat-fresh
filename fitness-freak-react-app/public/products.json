@@ -1,0 +1,60 @@
+[
+  {
+    "id": "e912ad01-2551-48dc-a709-4054cbfbcbbc",
+    "name": "Push Up",
+    "age": "20-22",
+    "duration": 20,
+    "img": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg",
+    "caption": "The push-up is a common calisthenics exercise beginning from the prone position."
+  },
+  {
+    "id": "e912ad01-2551-48dc-a709-4054cbfbcb2c",
+    "name": "Chest Up",
+    "age": "21-40",
+    "duration": 30,
+    "img": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg",
+    "caption": "The Chest-up is a common calisthenics exercise beginning from the prone position."
+  },
+  {
+    "id": "5b5c43d9-950d-4b9a-b7d9-ca489224a7b2",
+    "name": "Dumble",
+    "age": "18-35",
+    "duration": 25,
+    "img": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg",
+    "caption": "The Chest-up is a common calisthenics exercise beginning from the prone position."
+  },
+  {
+    "id": "96239c09-8b1c-4c81-99f9-f43e7613eab3",
+    "name": "Running",
+    "age": "21-42",
+    "duration": 60,
+    "img": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg",
+    "caption": "The Chest-up is a common calisthenics exercise beginning from the prone position."
+  },
+  {
+    "id": "30698483-f7aa-49ba-9de9-9070f64dc263",
+    "category": "Bottle",
+    "name": "Steel Bottle 600 ML",
+    "seller": "Addidas",
+    "price": 23,
+    "stock": 11,
+    "ratings": 5,
+    "ratingsCount": 35,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/48057b65216644f683a9aa1c0172ae6e_9366/Steel_Bottle_600_ML_Black_CL6093_01_standard.jpg",
+    "shipping": 5,
+    "quantity": 0
+  },
+  {
+    "id": "02871edc-272b-4e20-bcc2-b32681213b3c",
+    "category": "Bottle",
+    "name": "Steel Metal Bottle 2L",
+    "seller": "Addidas",
+    "price": 37,
+    "stock": 14,
+    "ratings": 4,
+    "ratingsCount": 68,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f8d89293c9cb4bf08d52adb100f95a3a_9366/Steel_Metal_Bottle_2L_Black_EX7302_01_standard.jpg",
+    "shipping": 27,
+    "quantity": 0
+  }
+]
